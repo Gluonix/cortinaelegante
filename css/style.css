@@ -597,13 +597,14 @@ display: -webkit-box;
   margin-left: 0;
   display: inline-block;
   font-size: 18px;
+  color: #000;
 }
 .list li {
   margin: 15px 0px;
 }
 .footer {
   padding: 30px 0px;
-  background: #009688;
+  background: #a2692e;
   color: white;
 }
 
