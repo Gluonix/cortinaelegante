@@ -568,7 +568,47 @@ i.fa.fa-bolt, i.fa.fa-comment, i.fa.fa-globe,i.fa.fa-lightbulb-o,i.fa.fa-thumbs-
     padding:5em 0 0;
 }
 /* //contact */
+/* Map */
+.map iframe {
+    border: none;
+    width: 100%;
+    height: 350px;
+}
+/* //Map */
+/* footer */
+.list {
+	display: -ms-flexbox;
+display: flex;
+display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -ms-flex-pack: space-between;
+  margin-bottom: 3%;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+.list a {
+  margin: 20px;
+  margin-left: 0;
+  display: inline-block;
+  font-size: 18px;
+  color: #000;
+}
+.list li {
+  margin: 15px 0px;
+}
+.footer {
+  padding: 30px 0px;
+  background: #a2692e;
+  color: white;
+}
 
+/* //footer */
 #team {
     padding:5em 0;
 }
