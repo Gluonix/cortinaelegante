@@ -349,6 +349,9 @@ h3.heading:after {
 .abouttop {
     margin-bottom: 3em;
 }
+.abouttopright img{
+    height: 29em;
+}
 .abouttopleft h3 ,.aboutbottomright h3{
     text-transform: uppercase;
     font-size: 25px;
@@ -699,6 +702,9 @@ display: -webkit-box;
 }
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
+.bottomright img{
+    height: 42em;
+}
 .grid figure figcaption > a {
 	z-index: 1000;
 	text-indent: 200%;
@@ -1034,6 +1040,7 @@ background: rgba(0, 0, 0, 0.17);
 .view img {
    display: block;
    position: relative;
+   height: 18em;
 }
 /* SECOND EFFECTS */
 
@@ -1299,6 +1306,7 @@ div#blog {
 }
 /*-- //to-top --*/
 
+
 /*-- responsive design --*/
 
 @media (max-width:1920px) {
@@ -1416,7 +1424,8 @@ div#blog {
 	}
 	.contact iframe {
 		height: 350px;
-	}
+    }
+    
 }
 @media (max-width:991px) {
 	.navbar-nav {
@@ -1430,8 +1439,8 @@ div#blog {
 		width: 100%;
 	}
 	.bottomright {
-		margin-top: 2em;
-	}
+        margin-top: 2em;
+    }
 	.abouttopleft {
 		margin-bottom: 2em;
 	}
